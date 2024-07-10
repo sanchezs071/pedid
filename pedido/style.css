@@ -1,0 +1,45 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+}
+
+.content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin:480px;
+}
+
+.titulo h1{
+    font-size: 40px;
+}
+
+.butao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+#b1 ,#b2{
+padding: 16px 30px;
+font-size: 27px;
+border: none;
+border-radius: 3px;
+background-color: lemonchiffon;
+cursor: pointer;
+}
+  
+
+
+#b1:hover{
+background-color: lightpink;
+}
+
+.cont{
+    padding: 100px;
+}
+.cont:hover{
+    display: none;
+    }
